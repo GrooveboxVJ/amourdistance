@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Amour à Distance - un jeu de GrooveboxVJ(2023)</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="./game.css">
+    <script defer src="./game.js"></script>
+    <script defer src="./level.js"></script>
+</head>
+<body>
+    <audio src="snd/MessageIn.mp3" id="messagein"></audio>
+    <audio src="snd/MessageOut.mp3" id="messageout"></audio>
+    <audio src="snd/iPhone Keyboard Typing Sound.mp3" id="typing"></audio>
+    <section id="menu">
+        <div class="titredujeu">"L'Amour à Distance 💋"</div>
+        <div class="reglesdujeu">
+            <div class="titreregles">Règles du jeu:</div>
+            <ul>
+                <li>10 scènes d'amour 💛</li>
+                <li>10 histoires d'amour à écrire 💚</li>
+                <li>5 textos à envoyer avant le décompte 💙</li>
+                <li>Amusez-vous ! 💜</li>               
+            </ul>
+        </div>
+        <div class="start" id="start">
+            🧡 Je suis prêt 🧡
+        </div>
+    </section>
+    <section class="hidden" id="gamecontainer">
+        <div class="motcle" id="motcle">mot clé</div>
+        <div class="game">
+            <div class="leftside">
+                <div class="prota inactif" id="prota1">
+                    <div class="status" id="status1"></div>
+                    <div class="perso" id="perso1"></div>
+                </div>
+            </div>
+            <div class="output" id="output">
+            </div>
+            <div class="rightside">
+                <div class="prota" id="prota2">
+                    <div class="status" id="status2"></div>
+                    <div class="perso" id="perso2"></div>                   
+                </div>
+            </div>
+        </div>
+        <div class="inputbox invisible" id="inputbox">
+            <div class="compteur"><progress id="progressbar" max="100" value="100"></progress></div>
+            <div class="input" id="input"></div>
+        </div>
+        
+    </section>
+    <section class="hidden" id="gameover">
+        Bravo, fin du jeu! Merci d'avoir joué à "l'Amour à Distance" - un jeu de GrooveboxVJ(2023)
+    </section>
+</body>
+</html>
