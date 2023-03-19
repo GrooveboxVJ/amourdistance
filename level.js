@@ -209,7 +209,7 @@ function introductionNiveau (stage){
         },18000)
     }
     if (stage==1){
-        gamecontainer.style.backgroundColor= "#800020"
+        gamecontainer.style.backgroundColor= "#D8BFD8"
         envoyerSMS2("T ou Cendrillon 😘",0)
         envoyerSMS2("Tt le monde t'attend tu fais quoi 😐",5000)
         envoyerSMS2("tu disparais tout le tps ça saoule jpp",10000)
@@ -225,7 +225,7 @@ function introductionNiveau (stage){
     }
     if (stage==2){
         gamecontainer.style.backgroundColor= "#83a258"
-        envoyerSMS2("Salut BB 😘",0)
+        envoyerSMS2("cc Maya 😘",0)
         envoyerSMS2("J'ai le bourdon, t'es où 😐",5000)
         envoyerSMS2("tu disparais butiner tt le tps ça saoule jpp",10000)
         
@@ -240,7 +240,7 @@ function introductionNiveau (stage){
     } 
     if (stage==3){
         gamecontainer.style.backgroundColor= "#005314"
-        envoyerSMS2("Salut BB c'est le lapin blanc 😘",0)
+        envoyerSMS2("Tu es l'élu, je suis le lapin blanc 😘",0)
         envoyerSMS2("t'es perdu dans la matrice? 😐",5000)
         envoyerSMS2("tu disparais tt le tps jpp",10000)
         
@@ -270,7 +270,7 @@ function introductionNiveau (stage){
     } 
     if (stage==5){
         gamecontainer.style.backgroundColor= "#863a96"
-        envoyerSMS2("Salut BB😘",0)
+        envoyerSMS2("Ca va BB😘",0)
         envoyerSMS2("j'espère que t'es pas au bar 😐",5000)
         envoyerSMS2("tu disparais tt le tps jpp",10000)
         
@@ -285,9 +285,9 @@ function introductionNiveau (stage){
     } 
     if (stage==6){
         gamecontainer.style.backgroundColor= "#ab6e69"
-        envoyerSMS2("Salut mon héros😘",0)
-        envoyerSMS2("je sais que tu m'captes avec tes super oreilles 😐",5000)
-        envoyerSMS2("tu disparais tt le tps jpp",10000)
+        envoyerSMS2("cc mon héros😘",0)
+        envoyerSMS2("C'est qd que tu voles me chercher 😐",5000)
+        envoyerSMS2("tu disparais tt le tps oskour",10000)
         
         setTimeout(()=>{
             montrerInputbox()
@@ -302,7 +302,7 @@ function introductionNiveau (stage){
         gamecontainer.style.backgroundColor= "#ab8d69"
         envoyerSMS2("Salut mon rappeur d'amour😘",0)
         envoyerSMS2("t'es pas venu à mon dernier concert 😐",5000)
-        envoyerSMS2("tu disparais tt le tps jpp",10000)
+        envoyerSMS2("t'es jamais là qd je veux faire un feat avec toi jpp",10000)
         
         setTimeout(()=>{
             montrerInputbox()
@@ -317,7 +317,7 @@ function introductionNiveau (stage){
         gamecontainer.style.backgroundColor= "#D8BFD8"
         envoyerSMS2("Salut Rouge😘",0)
         envoyerSMS2("tu viens fusionner nos robots? 😐",5000)
-        envoyerSMS2("tu pars te battre tt le tps jpp",10000)
+        envoyerSMS2("j'ai le coeur gros comme un dino jpp ",10000)
         
         setTimeout(()=>{
             montrerInputbox()
@@ -330,9 +330,9 @@ function introductionNiveau (stage){
     } 
     if (stage==9){
         gamecontainer.style.backgroundColor= "#be88e8"
-        envoyerSMS2("Salut mon pouss1😘",0)
-        envoyerSMS2("tu cours plus derriere batman que derriere moi 😐",5000)
-        envoyerSMS2("moi aussi je veux rire avec toi jpp",10000)
+        envoyerSMS2("Salut mon pouss1🐥",0)
+        envoyerSMS2("tu cours encore derriere batman, tu veux l'épouser ou koi 🦇",5000)
+        envoyerSMS2("tjrs les memes qui s'amusent jpp 🦇",10000)
         
         setTimeout(()=>{
             montrerInputbox()
